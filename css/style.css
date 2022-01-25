@@ -259,7 +259,108 @@ header nav .menu-nav li a:hover {
 
 /* FINE MAIN */
 
-/
+/* INIZIO FOOTER */ 
+
+/* container footer top */
+
+.container .container-footer {
+    background-color: #23272a;
+    padding: 50px 350px;
+}
+
+.container-footer .footer-top-left {
+    line-height: 50px;
+    color: #7189da;
+    font-weight: 500;
+    width: 20%;
+    float: left;
+    margin-right: 81px;
+}
+
+.container-footer .footer-top-left .lingua{
+    color: white;
+}
+
+
+.container-footer .footer-top-left h5 {
+    font-size: 30px;
+}
+
+
+.footer-top-left .social a {
+    margin-right: 10px;
+}
+
+
+.container-footer .footer-top-left a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-footer .footer-links {
+    width: 10%;
+    margin-right: 100px;
+    float: left;
+    text-decoration: none;
+}
+
+.container-footer .footer-links a{
+    width: 100%;
+    margin-right: 100px;
+    float: left;
+    text-decoration: none;
+}
+
+.container-footer .footer-links ul{
+    font-size: 17px;
+    list-style: none;
+    line-height: 30px;
+    color: white;
+}
+
+.container-footer .footer-links a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-links h5 {
+    color: #7189da;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#logo-lingua {
+    width: 10%;
+}
+
+#testo-lingua {
+    font-size: 12px;
+} 
+
+/* footer bottom */
+
+.container .footer-bottom {
+    padding: 30px 350px;
+    background-color: #23272a;
+}
+
+.container .footer-bottom hr {
+    margin-bottom: 30px;
+    color: #7189da;
+}
+
+.container .footer-bottom .registrati {
+    text-align: center;
+    background-color: #8ea1e1;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 12px;
+    float: right;
+}
 
 
 
