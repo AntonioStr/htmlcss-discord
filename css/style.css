@@ -1,0 +1,29 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.cf::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.shadow:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration: 0.2s;
+}
+
+a.shadow:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration: 0.2s;
+}
