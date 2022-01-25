@@ -76,7 +76,6 @@ header nav .menu-nav li a:hover {
 }
 
 #logo {
-    width: 19%;
     display: inline-block;
     text-align: left;
     line-height: 80px;
@@ -361,9 +360,6 @@ header nav .menu-nav li a:hover {
     font-size: 12px;
     float: right;
 }
-
-
-
 
 /*           :)            debug            (:            */
 
