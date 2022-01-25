@@ -95,3 +95,205 @@ header nav .menu-nav li a:hover {
 }
 
 /* FINE HEADER */
+
+/* INIZIO MAIN */
+
+/* Jumbotron */
+
+.container .jumbotron {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding: 125px 0 0 0;
+}
+
+.container .jumbotron .desc-jumbo {
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.container .jumbotron .desc-jumbo h1,
+.container main .sect-main h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container .jumbotron .desc-jumbo p {
+    margin: 40px 0 0 0;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/* Pulsanti Jumbo */
+
+.container .jumbotron .pulsanti-jumbo {
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-weight: 600;
+}
+
+.container .jumbotron .pulsanti-jumbo .donwload-mac {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    margin-right: 60px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.container .jumbotron .pulsanti-jumbo .donwload-mac:hover {
+    color: #2b5de7;
+}
+
+.container .jumbotron .pulsanti-jumbo .open-disc-browser {
+    background-color: #23272a;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 20px; 
+}
+
+.container .jumbotron .pulsanti-jumbo .open-disc-browser:hover {
+    background-color: #323232;
+    color: #fff;
+}
+
+/* Section main */
+
+.container main .sect-1,
+.container main .sect-3 {
+    background-color: #fff;
+    padding: 250px 350px;
+    color: #23272a;
+}
+
+.container main .sect-2,
+.container main .sect-4 {
+    background-color: #f6f6f6;
+    padding: 250px 450px;
+    color: #23272a;
+}
+
+.container main .sect-4 {
+    padding-bottom: 150px;
+}
+
+/* Section 1-3 */
+
+.container main .sect-main .img-sect {
+    float: left;
+}
+
+.container main .sect-main .desc-sect,
+.container main .sect-main .desc-sect-right {
+    float: left;
+    width: 27%;
+    font-size: 20px;
+}
+
+.container main .sect-main .ml-desc {
+    margin-left: 200px;
+}
+
+
+.container main .sect-main .desc-sect h2,
+.container main .sect-main .desc-sect-right h2,
+.container main .sect-main .desc-sect-none h2{
+    margin: 30px auto;
+}
+
+.container main .sect-main .desc-sect p,
+.container main .sect-main .desc-sect-right p,
+.container main .sect-main .desc-sect-none p {
+    font-size: 21px;
+    line-height: 30px;
+}
+
+/* Section 2  */
+
+.container main .sect-main .img-sect-right {
+    float: right;
+}
+
+/* Section 4  */
+
+.container main .sect-main .desc-sect-none,
+.container main .sect-main .img-sect-none {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+
+.container main .sect-main.sect-4 .bg-stars {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.container main .sect-main.sect-4 .bg-h3 {
+    background-image: url("../img/stars.svg");
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 50px;
+}
+
+/* Download main button */
+
+.container main section .donwload-mac {
+    text-align: center;
+    background-color: #8ea1e1;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+/* FINE MAIN */
+
+/
+
+
+
+
+/*           :)            debug            (:            */
+
+/* .debug header nav {
+    height: 50px;
+    background-color: #123233;
+} */
+ /* .container.debug {
+    height: 4000px;
+    background-color: #23272a;
+}  */
+/* 
+.debug .jumbotron{
+    height: 300px;
+    background-color: lightyellow;
+} */
+
+/* .debug main .sect-main {
+    background-color: pink;
+    margin: 0 350px auto;
+    height: 300px;
+}  */
+/* 
+.debug .container-footer {
+    height: 1000px;
+    background-color: lightpink;
+    position: relative;
+} */
+
+/* .footer-top {
+    position: absolute;
+    width: 500px;
+    margin: 200px 450px 50px 450px;
+} */
